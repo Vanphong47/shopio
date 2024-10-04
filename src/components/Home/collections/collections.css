@@ -1,0 +1,34 @@
+.image-left {
+    width: 630px;
+    height: 854px;
+    position: relative;
+    margin-top: 0;
+    background-image: url('../../../assets/images/image-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-size: 630px 750px; 
+    margin-right: 15px;
+}
+.image-left__title {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 47px;
+    margin-left: 39px;
+    padding-left: 42px;
+}
+.image-right {
+    width: 630px;
+    height: 854px;
+    margin-top: 0;
+    background-image: url('../../../assets/images/image-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 630px 854px;
+    margin-left: 15px;
+}
