@@ -1,0 +1,133 @@
+.mainImage {
+    position: relative;
+}
+.mainImg {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+.mainImg__left {
+    flex: 1;
+}
+.mainImg__right {
+    flex: 1;
+    display: flex;
+}
+.mainImg-box {
+    position: absolute;
+    width: 340px;
+    height: 470px;
+    background-color: var(--white--color);
+    top: 26%;
+    right: 16%;
+    display: none;
+}
+.mainImg-box-box {
+    top: 26%;
+    left: 16%;
+}
+.mainImg-box__item {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 50%;
+}
+.mainImg-box__name {
+    color: #E8C592;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.mainImg-box__content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--black--color);
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.mainImg-box__icon {
+    display: flex;
+    justify-content: center;
+}
+.mainImg-box__price {
+    color: #E8C592;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    display: flex;
+    justify-content: center
+}
+.mainImg-box-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.IconSpan {
+    height: 15px;
+    border-right: 1px solid black;
+}
+.Icon {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.Icon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: #E8C592;
+}
+.mainImg__right-img {
+    margin: auto;
+    position: relative;
+    width: 414px;
+    height: 553px;
+}
+.mainImg__right:hover .mainImg-box {
+    display: block;
+}
+.mainImg-content {
+    position: absolute;
+    top: 15%;
+    right: 40%;
+}
+.mainImg-content__name {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    justify-content: right;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.mainImg-content__name--div {
+    justify-content: left;
+}
+.mainImg-content__view {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+.mainImg-content__view--div {
+    justify-content: left;
+}
+.mainImg-content__view:hover {
+    opacity: 0.7;
+}
+.under {
+    width: 20px;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.EastIcon {
+    margin-left: 10px;
+}

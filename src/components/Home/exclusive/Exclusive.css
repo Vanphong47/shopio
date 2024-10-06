@@ -39,11 +39,7 @@ hr {
     left: 3px;
 }
 .box-title {
-    font-size: 69px;
-    font-weight: 200;
-    line-height: 80px;
     margin-bottom: 35px;
-    font-family: "Noto Sans", sans-serif;
 }
 .box-button {
     display: flex;
@@ -59,7 +55,16 @@ hr {
     background-color: var(--white--color);
     position: relative;
 }
+.box-button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: var(--white--color);
+}
 .shopnow-icon {
     position: absolute;
     right: 25px;
+    transition: transform 0.8s ease;
+}
+.shopnow-icon:hover {
+    transform: translateX(5px);
 }

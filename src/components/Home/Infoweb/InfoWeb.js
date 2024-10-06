@@ -9,23 +9,27 @@ export const InfoWeb = () => {
     <>
       <div className="header__top">
         <div className="header__top-phone">
-            8(844)880 - 33388
+            8 (844) 880 - 33388
         </div>
-        <a className="header__top-shopio">
-            shopio
-        </a>
+        <div className="header__top-shopio">
+            <img src="https://demo2.wpopal.com/shopio/wp-content/uploads/2021/12/logo.svg" alt="shopio" className="">
+            </img>
+            <span className="header__top-shopio-img">.</span> 
+        </div>
         <div className="header-icon">
             <div className="icon">
-            <SearchIcon sx={{ fontSize: 20 }}/>
+              <SearchIcon sx={{ fontSize: 30 }}/>
             </div>
             <div className="icon">
-            <PermIdentityIcon sx={{ fontSize: 20 }}/>
+              <PermIdentityIcon sx={{ fontSize: 30 }}/>
             </div>
-            <div className="icon">
-            <FavoriteBorderIcon sx={{ fontSize: 20 }}/>
+            <div className="icon icon-position">
+              <FavoriteBorderIcon sx={{ fontSize: 30 }}/>
+              <span className="icon-number">1</span>
             </div>
-            <div className="icon">
-            <ContentPasteIcon sx={{ fontSize: 20 }}/>
+            <div className="icon icon-position">
+              <ContentPasteIcon sx={{ fontSize: 30 }}/>
+              <span className="icon-number">0</span>
             </div>
         </div>
         </div>

@@ -1,5 +1,74 @@
 .footer {
-    width: 100%;
-    height: 311px;
-    margin-top: 30px;
+    width: 70%;
+    margin: 70px auto auto auto;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__box-item {
+    display: flex;
+    flex-direction: column;
+}
+.footer__box-item-img {
+    width: 115px;
+    height: 34px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+.footer__box-item-phone {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #EDC892;
+    margin-bottom: 40px;
+}
+.footer__box-item-email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.footer__box-item-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.footer__box-item-li {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    
+}
+.footer__box-item-icon {
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer__box-item--icon {
+    margin-right: 15px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #F6F6F6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconnn {
+    opacity: 0.7;
+}
+.footer__box-item-li:hover {
+    color: #EDC892;
+    cursor: pointer;
+}
+.footer__box-item--icon:hover {
+    border: 3px solid #EDC892;
+    background-color: #EDC892;
+    color: var(--white--color);
 }

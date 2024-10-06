@@ -1,27 +1,32 @@
 import "./NavBar.css";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 export const NavBar = () => {
   return (
     <>
       <div className="header__menu">
-        <a className="header__menu-title">
-            Home <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title header__menu-home">
+            Home <KeyboardArrowDownIcon sx={{ fontSize: 15 }}/>
+            <span className="header__menu-title-home"></span>
         </a>
-        <a className="header__menu-title">
-            Shop <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title header__menu-shop">
+          Shop <KeyboardArrowDownIcon sx={{ fontSize: 15 }}/>
+          <div className="header__menu-title-shop"></div>
         </a>
-        <a className="header__menu-title tag">
-            Product <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title  header__menu-product">
+            Product <KeyboardArrowDownIcon sx={{ fontSize: 15 }}/>
             <div className="featured"> featured</div>
+            <div className="header__menu-title-product"></div>
         </a>
-        <a className="header__menu-title">
-            Blog <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title  header__menu-blog">
+            Blog <KeyboardArrowDownIcon sx={{ fontSize: 15 }}/>
+            <div className="header__menu-title-blog"></div>
         </a>
-        <a className="header__menu-title">
-            Pages <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title  header__menu-page">
+            Pages <KeyboardArrowDownIcon sx={{ fontSize: 15 }}/>
+            <div className="header__menu-title-page"></div>
         </a>
-        <a className="header__menu-title tag">
-            Hot Deals <ArrowDropDownIcon sx={{ fontSize: 15 }}/>
+        <a className="header__menu-title ">
+            Hot Deals 
             <div className="hot"> hot</div>
         </a>
       </div>

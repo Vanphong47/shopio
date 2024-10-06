@@ -1,34 +1,54 @@
-.header {
-    width: 100%;
-    background-color: var(--white--color);
-    height: 110px;
-}
 .header__top {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    height: 80px;
 }
 .header__top-phone {
     display: flex;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
     flex: 1;
     justify-content: center;
     font-family: "Be Vietnam Pro", sans-serif;
+    margin: auto;
+    color: rgb(0, 0, 0);
 }
 .header__top-shopio {
     display: flex;
-    font-size: 25px;
-    font-weight: 800;
     flex: 1;
     justify-content: center;
-    font-family: "Be Vietnam Pro", sans-serif;
+    margin: auto;
+}
+.header__top-shopio-img {
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #e8c592;
 }
 .header-icon {
     display: flex;
     flex: 1;
     justify-content: center;
+    margin: auto;
 }
 .icon {
-    margin-left: 10px;
+    margin-left: 25px;
+}
+.icon:hover {
+    color: #F89619;
+    cursor: pointer;
+}
+.icon-position {
+    position: relative;
+}
+.icon-number {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-size: 10px;
+    font-weight: 400;
 }

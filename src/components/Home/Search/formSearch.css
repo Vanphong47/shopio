@@ -1,0 +1,24 @@
+input::placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+.from-search {
+    display: flex;
+    position: relative;
+}
+.search {
+    width: 470px;
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    margin: 30px auto auto auto ;
+}
+
+.Subcribe {
+    font-size: 15px;
+    color: #E8C5AA;
+    position: absolute;
+    top: 57%;
+    right: 38%;
+    font-weight: 600;
+}
